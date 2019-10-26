@@ -1,0 +1,2 @@
+include ':app', ':photo_booth'
+rootProject.name='PhotoBooth'
