@@ -1,24 +1,27 @@
 package com.rakel.he.photo_booth.model;
 
-import com.litesuits.orm.db.annotation.NotNull;
-import com.litesuits.orm.db.annotation.PrimaryKey;
-import com.litesuits.orm.db.annotation.Table;
-import com.litesuits.orm.db.annotation.Unique;
-import com.litesuits.orm.db.enums.AssignType;
+import android.content.Context;
 
-@Table("photo")
-public class PhotoModel {
+import com.litesuits.orm.LiteOrm;
+import com.litesuits.orm.db.assit.QueryBuilder;
+import com.rakel.he.photo_booth.contacts.PhotoContacts;
 
-    @PrimaryKey(AssignType.AUTO_INCREMENT)
-    private int id;
+import java.util.ArrayList;
 
-    @NotNull
-    private String name;
+public class PhotoModel implements PhotoContacts.Model {
+    private LiteOrm liteOrm;
 
-    @NotNull
-    @Unique
-    private String filePath;
+    public PhotoModel(Context context)
+    {
+        liteOrm=LiteOrm.newSingleInstance(context, "photo_booth.db");
+    }
 
-    @NotNull
-    private long createTimestamp;
+    @Override
+    public void loadPhotoes(ModelListener modelListener) {
+        QueryBuilder builder=new QueryBuilder<PhotoBean>(PhotoBean.class)
+                .appendOrderDescBy("createTimestamp");
+        ArrayList<PhotoBean> beans=liteOrm.query(builder);
+        if(modelListener!=null)
+            modelListener.completed(beans);
+    }
 }

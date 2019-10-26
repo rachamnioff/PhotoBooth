@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">PhotoBoothLib</string>
+    <string name="tittle_bar_left_menu">Return</string>
+    <string name="tittle_bar_right_menu">Next</string>
+    <string name="photoes">Photoes</string>
+    <string name="camera">Camera</string>
+    <string name="loading">loading</string>
+    <string name="no_photoes">No Photo Exists</string>
 </resources>

@@ -3,34 +3,40 @@
 3    package="com.rakel.he.photo_booth.test" >
 4
 5    <uses-sdk
-5-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger3869832226380416457.xml:5:5-74
+5-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger2707371887735498581.xml:5:5-74
 6        android:minSdkVersion="15"
-6-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger3869832226380416457.xml:5:15-41
+6-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger2707371887735498581.xml:5:15-41
 7        android:targetSdkVersion="29" />
-7-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger3869832226380416457.xml:5:42-71
+7-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger2707371887735498581.xml:5:42-71
 8
 9    <instrumentation
-9-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger3869832226380416457.xml:11:5-15:79
+9-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger2707371887735498581.xml:11:5-15:79
 10        android:name="androidx.test.runner.AndroidJUnitRunner"
-10-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger3869832226380416457.xml:11:22-76
+10-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger2707371887735498581.xml:11:22-76
 11        android:functionalTest="false"
-11-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger3869832226380416457.xml:14:22-52
+11-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger2707371887735498581.xml:14:22-52
 12        android:handleProfiling="false"
-12-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger3869832226380416457.xml:13:22-53
+12-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger2707371887735498581.xml:13:22-53
 13        android:label="Tests for com.rakel.he.photo_booth.test"
-13-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger3869832226380416457.xml:15:22-77
+13-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger2707371887735498581.xml:15:22-77
 14        android:targetPackage="com.rakel.he.photo_booth.test" />
-14-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger3869832226380416457.xml:12:22-75
+14-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger2707371887735498581.xml:12:22-75
 15
 16    <application
-16-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger3869832226380416457.xml:7:5-9:19
-17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-17-->[androidx.core:core:1.0.1] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/72b2b92ec4ab73ff21fb9bc348de3b22/core-1.0.1/AndroidManifest.xml:22:18-86
-18        android:debuggable="true" >
-18-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger3869832226380416457.xml:7:18-43
-19        <uses-library android:name="android.test.runner" />
-19-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger3869832226380416457.xml:8:9-60
-19-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger3869832226380416457.xml:8:23-57
-20    </application>
-21
-22</manifest>
+16-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger2707371887735498581.xml:7:5-9:19
+17        android:allowBackup="true"
+17-->[com.pnikosis:materialish-progress:1.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/9adf9523e3553178041439b58dc55244/materialish-progress-1.0/AndroidManifest.xml:12:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.0.1] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/72b2b92ec4ab73ff21fb9bc348de3b22/core-1.0.1/AndroidManifest.xml:22:18-86
+19        android:debuggable="true"
+19-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger2707371887735498581.xml:7:18-43
+20        android:icon="@drawable/ic_launcher"
+20-->[com.pnikosis:materialish-progress:1.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/9adf9523e3553178041439b58dc55244/materialish-progress-1.0/AndroidManifest.xml:13:9-45
+21        android:label="@string/app_name" >
+21-->[com.pnikosis:materialish-progress:1.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/9adf9523e3553178041439b58dc55244/materialish-progress-1.0/AndroidManifest.xml:14:9-41
+22        <uses-library android:name="android.test.runner" />
+22-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger2707371887735498581.xml:8:9-60
+22-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger2707371887735498581.xml:8:23-57
+23    </application>
+24
+25</manifest>
