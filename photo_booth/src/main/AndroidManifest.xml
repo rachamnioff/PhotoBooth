@@ -1,2 +1,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.rakel.he.photo_booth" />
+    package="com.rakel.he.photo_booth" >
+    <application >
+       <activity android:name=".view.CapturePhotoView"/>
+        <activity android:name=".view.PhotoDetailView"/>
+        <activity android:name=".view.PhotoGalleryView"/>
+    </application>
+    <permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <permission android:name="android.permission.CAMERA" />
+</manifest>

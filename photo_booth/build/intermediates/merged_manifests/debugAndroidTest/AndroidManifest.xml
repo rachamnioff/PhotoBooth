@@ -13,6 +13,25 @@
         android:label="Tests for com.rakel.he.photo_booth.test"
         android:targetPackage="com.rakel.he.photo_booth.test" />
 
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!--
+         Have developers add this. We don't want AUDIO permission to be auto-added to
+         apps that just want to take pictures.
+    -->
+    <!-- uses-permission android:name="android.permission.RECORD_AUDIO" / -->
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.microphone"
+        android:required="false" />
+
     <application
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -20,6 +39,10 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name" >
         <uses-library android:name="android.test.runner" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
     </application>
 
 </manifest>

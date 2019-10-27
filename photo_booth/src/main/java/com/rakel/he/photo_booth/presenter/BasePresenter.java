@@ -6,7 +6,7 @@ import java.lang.ref.WeakReference;
 
 public class BasePresenter implements IPresenter {
 
-    protected WeakReference iView;
+    protected WeakReference<IView> iView;
 
     @Override
     public void register(IView view) {

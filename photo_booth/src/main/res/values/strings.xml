@@ -5,5 +5,9 @@
     <string name="photoes">Photoes</string>
     <string name="camera">Camera</string>
     <string name="loading">loading</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">Ok</string>
     <string name="no_photoes">No Photo Exists</string>
+    <string name="input_hint">Input The Name For This Captured Photo</string>
+    <string name="err_input_name_empty">Input Name Can Not Be Empty</string>
 </resources>

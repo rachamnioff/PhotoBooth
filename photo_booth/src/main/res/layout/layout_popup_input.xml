@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/holo_green_light"
+    >
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TittleBar.Tittle"
+        android:background="@android:color/transparent"
+        android:layout_gravity="bottom"
+        android:text="@string/input_hint"/>
+    <EditText
+        android:id="@+id/input_photo_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TittleBar.Tittle"
+        android:hint="input here"
+        android:background="@android:color/transparent"
+        android:maxLines="1"
+        android:maxLength="40"
+        android:gravity="left|center_vertical"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="@string/ok"
+        android:id="@+id/input_confirm_btn"/>
+</LinearLayout>
