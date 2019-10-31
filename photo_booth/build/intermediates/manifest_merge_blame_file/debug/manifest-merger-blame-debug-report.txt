@@ -10,4 +10,80 @@
 9        android:targetSdkVersion="29" />
 9-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml
 10
-11</manifest>
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:13:5-80
+11-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:13:22-77
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:14:5-81
+12-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:14:22-78
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:15:5-65
+13-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:15:22-62
+14    <!--
+15         Have developers add this. We don't want AUDIO permission to be auto-added to
+16         apps that just want to take pictures.
+17    -->
+18    <!-- uses-permission android:name="android.permission.RECORD_AUDIO" / -->
+19    <uses-feature
+19-->[com.otaliastudios:cameraview:2.4.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/10acdd32b8c8e90c4f3e3a005d2d58fc/cameraview-2.4.0/AndroidManifest.xml:19:5-21:36
+20        android:name="android.hardware.camera"
+20-->[com.otaliastudios:cameraview:2.4.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/10acdd32b8c8e90c4f3e3a005d2d58fc/cameraview-2.4.0/AndroidManifest.xml:20:9-47
+21        android:required="false" />
+21-->[com.otaliastudios:cameraview:2.4.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/10acdd32b8c8e90c4f3e3a005d2d58fc/cameraview-2.4.0/AndroidManifest.xml:21:9-33
+22    <uses-feature
+22-->[com.otaliastudios:cameraview:2.4.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/10acdd32b8c8e90c4f3e3a005d2d58fc/cameraview-2.4.0/AndroidManifest.xml:22:5-24:36
+23        android:name="android.hardware.camera.autofocus"
+23-->[com.otaliastudios:cameraview:2.4.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/10acdd32b8c8e90c4f3e3a005d2d58fc/cameraview-2.4.0/AndroidManifest.xml:23:9-57
+24        android:required="false" />
+24-->[com.otaliastudios:cameraview:2.4.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/10acdd32b8c8e90c4f3e3a005d2d58fc/cameraview-2.4.0/AndroidManifest.xml:24:9-33
+25    <uses-feature
+25-->[com.otaliastudios:cameraview:2.4.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/10acdd32b8c8e90c4f3e3a005d2d58fc/cameraview-2.4.0/AndroidManifest.xml:25:5-27:36
+26        android:name="android.hardware.camera.front"
+26-->[com.otaliastudios:cameraview:2.4.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/10acdd32b8c8e90c4f3e3a005d2d58fc/cameraview-2.4.0/AndroidManifest.xml:26:9-53
+27        android:required="false" />
+27-->[com.otaliastudios:cameraview:2.4.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/10acdd32b8c8e90c4f3e3a005d2d58fc/cameraview-2.4.0/AndroidManifest.xml:27:9-33
+28    <uses-feature
+28-->[com.otaliastudios:cameraview:2.4.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/10acdd32b8c8e90c4f3e3a005d2d58fc/cameraview-2.4.0/AndroidManifest.xml:28:5-30:36
+29        android:name="android.hardware.microphone"
+29-->[com.otaliastudios:cameraview:2.4.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/10acdd32b8c8e90c4f3e3a005d2d58fc/cameraview-2.4.0/AndroidManifest.xml:29:9-51
+30        android:required="false" />
+30-->[com.otaliastudios:cameraview:2.4.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/10acdd32b8c8e90c4f3e3a005d2d58fc/cameraview-2.4.0/AndroidManifest.xml:30:9-33
+31
+32    <application
+32-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:3:5-12:19
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.0.1] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/72b2b92ec4ab73ff21fb9bc348de3b22/core-1.0.1/AndroidManifest.xml:22:18-86
+34        android:debuggable="true"
+35        android:label="@string/app_name"
+35-->[com.truizlop.sectionedrecyclerview:library:1.2.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/d9ad2c95614e7e643e4fb1bbd953485b/jetified-library-1.2.0/AndroidManifest.xml:11:18-50
+36        android:testOnly="true" >
+37        <activity android:name="com.rakel.he.photo_booth.view.CapturePhotoView" />
+37-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:4:8-57
+37-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:4:18-55
+38        <activity android:name="com.rakel.he.photo_booth.view.PhotoDetailView" />
+38-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:5:9-57
+38-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:5:19-55
+39        <activity android:name="com.rakel.he.photo_booth.view.PhotoGalleryView" >
+39-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:6:9-11:20
+39-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:6:19-56
+40            <intent-filter>
+40-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:7:13-10:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:8:17-69
+41-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:8:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:9:17-77
+43-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:9:27-74
+44            </intent-filter>
+45        </activity>
+46
+47        <meta-data
+47-->[com.google.android.gms:play-services-basement:17.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/a2789557898d3b2afc5d1e24bbdb278d/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+48            android:name="com.google.android.gms.version"
+48-->[com.google.android.gms:play-services-basement:17.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/a2789557898d3b2afc5d1e24bbdb278d/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+49            android:value="@integer/google_play_services_version" />
+49-->[com.google.android.gms:play-services-basement:17.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/a2789557898d3b2afc5d1e24bbdb278d/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+50    </application>
+51
+52</manifest>

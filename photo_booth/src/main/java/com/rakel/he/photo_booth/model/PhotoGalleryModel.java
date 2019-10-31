@@ -9,8 +9,6 @@ import com.rakel.he.photo_booth.contacts.PhotoGalleryContacts;
 import java.util.ArrayList;
 
 public class PhotoGalleryModel extends  IModel implements PhotoGalleryContacts.Model {
-    private LiteOrm liteOrm;
-
     public PhotoGalleryModel(Context context)
     {
         super(context);

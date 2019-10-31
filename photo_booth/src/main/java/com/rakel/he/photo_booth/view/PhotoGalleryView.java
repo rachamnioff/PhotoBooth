@@ -5,6 +5,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -98,13 +99,14 @@ public class PhotoGalleryView extends BaseActivity
             photoBeans.add(bean);
             mPhotoMap.put(formatedDate,photoBeans);
         }
+        findViewById(R.id.gallery_empty_icon).setVisibility(View.GONE);
+        mRecyclerView.setVisibility(View.VISIBLE);
         mDataSetChanged=true;
     }
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         initView();
-        showProgress(getString(R.string.loading));
         requestStoragePermission();
         EventBus.getDefault().register(this);
     }
@@ -131,6 +133,8 @@ public class PhotoGalleryView extends BaseActivity
 
     private void loadingPhotoes()
     {
+        Log.d(TAG,"loadingPhotoes");
+        showProgress(getString(R.string.loading));
         ((PhotoGalleryPresenter)iPresenter).loadPhotoes();
     }
 
@@ -223,6 +227,7 @@ public class PhotoGalleryView extends BaseActivity
 
     private void requestStoragePermission()
     {
+//        Log.d(TAG,"request storage permission");
         if (Build.VERSION.SDK_INT>22){
             if (ContextCompat.checkSelfPermission(this,
                     Manifest.permission.WRITE_EXTERNAL_STORAGE)!= PERMISSION_GRANTED){
@@ -320,7 +325,7 @@ public class PhotoGalleryView extends BaseActivity
         protected void onBindItemViewHolder(PhotoItemViewHolder holder, final int section, final int position) {
             PhotoBean bean=mPhotoMap.get(mSectionTittles.get(section)).get(position);
             holder.nameView.setText(bean.getName());
-            holder.timestampView.setText(mDayFormater.format(String.valueOf(bean.getCreateTimestamp())));
+            holder.timestampView.setText(mDayFormater.format(new Date(bean.getCreateTimestamp())));
             Glide.with(PhotoGalleryView.this).load(bean.getFilePath()).apply(mPhotoLoadOptions).into(holder.imageView);
             ((LinearLayout)holder.nameView.getParent()).setOnClickListener(new View.OnClickListener() {
                 @Override

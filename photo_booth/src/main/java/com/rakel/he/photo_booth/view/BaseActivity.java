@@ -1,7 +1,7 @@
 package com.rakel.he.photo_booth.view;
 
 import android.app.Activity;
-import android.graphics.Color;
+import android.app.ProgressDialog;
 import android.os.Bundle;
 import android.widget.Toast;
 
@@ -9,12 +9,11 @@ import androidx.annotation.Nullable;
 
 import com.rakel.he.photo_booth.presenter.IPresenter;
 
-import cn.pedant.SweetAlert.SweetAlertDialog;
 
 public abstract class BaseActivity extends Activity implements IView{
-
+    protected String TAG="PhotoBooth";
     protected IPresenter iPresenter;
-    protected SweetAlertDialog mDialog;
+    protected ProgressDialog mDialog;
 
     public void goBack()
     {
@@ -36,11 +35,10 @@ public abstract class BaseActivity extends Activity implements IView{
     public void showProgress(String message)
     {
         if(mDialog==null) {
-            mDialog = new SweetAlertDialog(this, SweetAlertDialog.PROGRESS_TYPE);
-            mDialog.getProgressHelper().setBarColor(Color.parseColor("#A5DC86"));
+            mDialog = new ProgressDialog(this);
             mDialog.setCancelable(false);
         }
-        mDialog.setTitleText(message);
+        mDialog.setMessage(message);
         mDialog.show();
     }
     @Override

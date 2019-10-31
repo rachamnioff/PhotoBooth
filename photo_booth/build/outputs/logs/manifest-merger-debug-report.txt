@@ -1,30 +1,186 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:1:1-2:42
-INJECTED from /Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:1:1-2:42
-INJECTED from /Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:1:1-2:42
-INJECTED from /Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:1:1-2:42
-INJECTED from /Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:1:1-2:42
-INJECTED from /Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:1:1-2:42
-INJECTED from /Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:1:1-2:42
+ADDED from /Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:1:1-16:12
+INJECTED from /Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:1:1-16:12
+INJECTED from /Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:1:1-16:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/f6a183f8595ca34f3d5cc99d1f8bc322/appcompat-1.0.2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.truizlop.sectionedrecyclerview:library:1.2.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/d9ad2c95614e7e643e4fb1bbd953485b/jetified-library-1.2.0/AndroidManifest.xml:2:1-14:12
+MERGED from [com.github.bumptech.glide:glide:4.10.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/5eab63e3e217f33e4882f2fa7cd985ff/glide-4.10.0/AndroidManifest.xml:2:1-12:12
+MERGED from [com.otaliastudios:cameraview:2.4.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/10acdd32b8c8e90c4f3e3a005d2d58fc/cameraview-2.4.0/AndroidManifest.xml:2:1-34:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/3087f829ad78da1f0d52970740cc50c8/play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/a2789557898d3b2afc5d1e24bbdb278d/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/4f37a040d795d0eef135b10b20545e3f/fragment-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/d382ba9b8c9ea9d7b43a9cfaea0ecdf4/vectordrawable-animated-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/bbc51c53aec70aeae5178e82f15e817a/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/abc680e55824c418c024460e31034ed4/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/ba2af06f417607d7ef1ca9f201a0d139/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/324a702de98e8e0560de88ae82ee3427/vectordrawable-1.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/331f61861c2d3a925f2252286afb1f53/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/f3997ce16a5c00ae84a772d300d0e1e8/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/04087833f388d5ffa97a080d757646c2/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/34085af895daa23049fd0af188e6a001/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/eb11c4797d5d5b24d5dcbbebe26babf4/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/740a70a0c89c8c085b6e012b4bd7790e/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/31dc29ba3158cee4b1ca2bf2f6ff141b/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/435f1166e6a428a0025d9cd273cb35a2/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.1] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/72b2b92ec4ab73ff21fb9bc348de3b22/core-1.0.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/07608d1ce0a2b5e25216bbe877b06158/versionedparcelable-1.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/aa91d8d2653c363bbd5da9d9892260d3/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.10.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/e90be152f08ce99fb09048a87e58bfc3/gifdecoder-4.10.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/ae8b971b40c132101f87c0e7d5e73037/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/684c19030ab34291fff8f6b761838da8/lifecycle-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/420f294924962582b4c42c622af43461/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/66e997bde0b6ece28f7fd36f5f4a1584/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/9d52be8c254a228a91eaf05f51d52923/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/9093771a98b01557e81860f4122d7892/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/7ec682ca46f5c90ea9a9e0cba0c0310a/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/85b59553d84ac8d04663d7d81848664c/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/8787729f29cf7add1bc29c81caccddfd/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/d4ef17d609918d2a5f5a86d1ea02678f/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:1:1-16:12
+INJECTED from /Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:1:1-16:12
 	package
 		ADDED from /Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:2:5-39
-		INJECTED from /Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml
-		INJECTED from /Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml
-		ADDED from /Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:1:1-2:42
+		ADDED from /Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:1:1-16:12
 		INJECTED from /Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml
-		ADDED from /Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:1:1-2:42
+		ADDED from /Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:1:1-16:12
 		INJECTED from /Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:1:11-69
+application
+ADDED from /Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:3:5-12:19
+MERGED from [com.truizlop.sectionedrecyclerview:library:1.2.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/d9ad2c95614e7e643e4fb1bbd953485b/jetified-library-1.2.0/AndroidManifest.xml:11:5-12:19
+MERGED from [com.truizlop.sectionedrecyclerview:library:1.2.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/d9ad2c95614e7e643e4fb1bbd953485b/jetified-library-1.2.0/AndroidManifest.xml:11:5-12:19
+MERGED from [com.github.bumptech.glide:glide:4.10.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/5eab63e3e217f33e4882f2fa7cd985ff/glide-4.10.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.10.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/5eab63e3e217f33e4882f2fa7cd985ff/glide-4.10.0/AndroidManifest.xml:10:5-20
+MERGED from [com.otaliastudios:cameraview:2.4.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/10acdd32b8c8e90c4f3e3a005d2d58fc/cameraview-2.4.0/AndroidManifest.xml:32:5-20
+MERGED from [com.otaliastudios:cameraview:2.4.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/10acdd32b8c8e90c4f3e3a005d2d58fc/cameraview-2.4.0/AndroidManifest.xml:32:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/3087f829ad78da1f0d52970740cc50c8/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/3087f829ad78da1f0d52970740cc50c8/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/a2789557898d3b2afc5d1e24bbdb278d/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/a2789557898d3b2afc5d1e24bbdb278d/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.0.1] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/72b2b92ec4ab73ff21fb9bc348de3b22/core-1.0.1/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.1] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/72b2b92ec4ab73ff21fb9bc348de3b22/core-1.0.1/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/07608d1ce0a2b5e25216bbe877b06158/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/07608d1ce0a2b5e25216bbe877b06158/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.10.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/e90be152f08ce99fb09048a87e58bfc3/gifdecoder-4.10.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.10.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/e90be152f08ce99fb09048a87e58bfc3/gifdecoder-4.10.0/AndroidManifest.xml:9:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.1] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/72b2b92ec4ab73ff21fb9bc348de3b22/core-1.0.1/AndroidManifest.xml:22:18-86
+	android:label
+		ADDED from [com.truizlop.sectionedrecyclerview:library:1.2.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/d9ad2c95614e7e643e4fb1bbd953485b/jetified-library-1.2.0/AndroidManifest.xml:11:18-50
+activity#com.rakel.he.photo_booth.view.CapturePhotoView
+ADDED from /Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:4:8-57
+	android:name
+		ADDED from /Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:4:18-55
+activity#com.rakel.he.photo_booth.view.PhotoDetailView
+ADDED from /Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:5:9-57
+	android:name
+		ADDED from /Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:5:19-55
+activity#com.rakel.he.photo_booth.view.PhotoGalleryView
+ADDED from /Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:6:9-11:20
+	android:name
+		ADDED from /Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:6:19-56
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:7:13-10:29
+action#android.intent.action.MAIN
+ADDED from /Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:8:17-69
+	android:name
+		ADDED from /Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:8:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:9:17-77
+	android:name
+		ADDED from /Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:9:27-74
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:13:5-80
+	android:name
+		ADDED from /Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:13:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:14:5-81
+	android:name
+		ADDED from /Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:14:22-78
+uses-permission#android.permission.CAMERA
+ADDED from /Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:15:5-65
+MERGED from [com.otaliastudios:cameraview:2.4.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/10acdd32b8c8e90c4f3e3a005d2d58fc/cameraview-2.4.0/AndroidManifest.xml:11:5-65
+MERGED from [com.otaliastudios:cameraview:2.4.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/10acdd32b8c8e90c4f3e3a005d2d58fc/cameraview-2.4.0/AndroidManifest.xml:11:5-65
+	android:name
+		ADDED from /Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:15:22-62
 uses-sdk
 INJECTED from /Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml
 INJECTED from /Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/f6a183f8595ca34f3d5cc99d1f8bc322/appcompat-1.0.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/f6a183f8595ca34f3d5cc99d1f8bc322/appcompat-1.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.truizlop.sectionedrecyclerview:library:1.2.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/d9ad2c95614e7e643e4fb1bbd953485b/jetified-library-1.2.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.truizlop.sectionedrecyclerview:library:1.2.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/d9ad2c95614e7e643e4fb1bbd953485b/jetified-library-1.2.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:glide:4.10.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/5eab63e3e217f33e4882f2fa7cd985ff/glide-4.10.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.10.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/5eab63e3e217f33e4882f2fa7cd985ff/glide-4.10.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.otaliastudios:cameraview:2.4.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/10acdd32b8c8e90c4f3e3a005d2d58fc/cameraview-2.4.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.otaliastudios:cameraview:2.4.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/10acdd32b8c8e90c4f3e3a005d2d58fc/cameraview-2.4.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/3087f829ad78da1f0d52970740cc50c8/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/3087f829ad78da1f0d52970740cc50c8/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/a2789557898d3b2afc5d1e24bbdb278d/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/a2789557898d3b2afc5d1e24bbdb278d/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/4f37a040d795d0eef135b10b20545e3f/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/4f37a040d795d0eef135b10b20545e3f/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/d382ba9b8c9ea9d7b43a9cfaea0ecdf4/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/d382ba9b8c9ea9d7b43a9cfaea0ecdf4/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/bbc51c53aec70aeae5178e82f15e817a/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/bbc51c53aec70aeae5178e82f15e817a/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/abc680e55824c418c024460e31034ed4/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/abc680e55824c418c024460e31034ed4/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/ba2af06f417607d7ef1ca9f201a0d139/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/ba2af06f417607d7ef1ca9f201a0d139/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/324a702de98e8e0560de88ae82ee3427/vectordrawable-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/324a702de98e8e0560de88ae82ee3427/vectordrawable-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/331f61861c2d3a925f2252286afb1f53/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/331f61861c2d3a925f2252286afb1f53/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/f3997ce16a5c00ae84a772d300d0e1e8/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/f3997ce16a5c00ae84a772d300d0e1e8/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/04087833f388d5ffa97a080d757646c2/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/04087833f388d5ffa97a080d757646c2/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/34085af895daa23049fd0af188e6a001/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/34085af895daa23049fd0af188e6a001/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/eb11c4797d5d5b24d5dcbbebe26babf4/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/eb11c4797d5d5b24d5dcbbebe26babf4/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/740a70a0c89c8c085b6e012b4bd7790e/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/740a70a0c89c8c085b6e012b4bd7790e/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/31dc29ba3158cee4b1ca2bf2f6ff141b/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/31dc29ba3158cee4b1ca2bf2f6ff141b/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/435f1166e6a428a0025d9cd273cb35a2/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/435f1166e6a428a0025d9cd273cb35a2/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/72b2b92ec4ab73ff21fb9bc348de3b22/core-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/72b2b92ec4ab73ff21fb9bc348de3b22/core-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/07608d1ce0a2b5e25216bbe877b06158/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/07608d1ce0a2b5e25216bbe877b06158/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/aa91d8d2653c363bbd5da9d9892260d3/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/aa91d8d2653c363bbd5da9d9892260d3/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.10.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/e90be152f08ce99fb09048a87e58bfc3/gifdecoder-4.10.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.10.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/e90be152f08ce99fb09048a87e58bfc3/gifdecoder-4.10.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/ae8b971b40c132101f87c0e7d5e73037/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/ae8b971b40c132101f87c0e7d5e73037/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/684c19030ab34291fff8f6b761838da8/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/684c19030ab34291fff8f6b761838da8/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/420f294924962582b4c42c622af43461/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/420f294924962582b4c42c622af43461/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/66e997bde0b6ece28f7fd36f5f4a1584/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/66e997bde0b6ece28f7fd36f5f4a1584/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/9d52be8c254a228a91eaf05f51d52923/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/9d52be8c254a228a91eaf05f51d52923/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/9093771a98b01557e81860f4122d7892/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/9093771a98b01557e81860f4122d7892/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/7ec682ca46f5c90ea9a9e0cba0c0310a/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/7ec682ca46f5c90ea9a9e0cba0c0310a/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/85b59553d84ac8d04663d7d81848664c/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/85b59553d84ac8d04663d7d81848664c/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/8787729f29cf7add1bc29c81caccddfd/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/8787729f29cf7add1bc29c81caccddfd/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/d4ef17d609918d2a5f5a86d1ea02678f/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/d4ef17d609918d2a5f5a86d1ea02678f/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 INJECTED from /Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml
 INJECTED from /Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml
 	android:targetSdkVersion
@@ -35,3 +191,33 @@ INJECTED from /Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/Android
 		INJECTED from /Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml
 		ADDED from /Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml
 		INJECTED from /Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml
+uses-feature#android.hardware.camera
+ADDED from [com.otaliastudios:cameraview:2.4.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/10acdd32b8c8e90c4f3e3a005d2d58fc/cameraview-2.4.0/AndroidManifest.xml:19:5-21:36
+	android:required
+		ADDED from [com.otaliastudios:cameraview:2.4.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/10acdd32b8c8e90c4f3e3a005d2d58fc/cameraview-2.4.0/AndroidManifest.xml:21:9-33
+	android:name
+		ADDED from [com.otaliastudios:cameraview:2.4.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/10acdd32b8c8e90c4f3e3a005d2d58fc/cameraview-2.4.0/AndroidManifest.xml:20:9-47
+uses-feature#android.hardware.camera.autofocus
+ADDED from [com.otaliastudios:cameraview:2.4.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/10acdd32b8c8e90c4f3e3a005d2d58fc/cameraview-2.4.0/AndroidManifest.xml:22:5-24:36
+	android:required
+		ADDED from [com.otaliastudios:cameraview:2.4.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/10acdd32b8c8e90c4f3e3a005d2d58fc/cameraview-2.4.0/AndroidManifest.xml:24:9-33
+	android:name
+		ADDED from [com.otaliastudios:cameraview:2.4.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/10acdd32b8c8e90c4f3e3a005d2d58fc/cameraview-2.4.0/AndroidManifest.xml:23:9-57
+uses-feature#android.hardware.camera.front
+ADDED from [com.otaliastudios:cameraview:2.4.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/10acdd32b8c8e90c4f3e3a005d2d58fc/cameraview-2.4.0/AndroidManifest.xml:25:5-27:36
+	android:required
+		ADDED from [com.otaliastudios:cameraview:2.4.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/10acdd32b8c8e90c4f3e3a005d2d58fc/cameraview-2.4.0/AndroidManifest.xml:27:9-33
+	android:name
+		ADDED from [com.otaliastudios:cameraview:2.4.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/10acdd32b8c8e90c4f3e3a005d2d58fc/cameraview-2.4.0/AndroidManifest.xml:26:9-53
+uses-feature#android.hardware.microphone
+ADDED from [com.otaliastudios:cameraview:2.4.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/10acdd32b8c8e90c4f3e3a005d2d58fc/cameraview-2.4.0/AndroidManifest.xml:28:5-30:36
+	android:required
+		ADDED from [com.otaliastudios:cameraview:2.4.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/10acdd32b8c8e90c4f3e3a005d2d58fc/cameraview-2.4.0/AndroidManifest.xml:30:9-33
+	android:name
+		ADDED from [com.otaliastudios:cameraview:2.4.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/10acdd32b8c8e90c4f3e3a005d2d58fc/cameraview-2.4.0/AndroidManifest.xml:29:9-51
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/a2789557898d3b2afc5d1e24bbdb278d/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/a2789557898d3b2afc5d1e24bbdb278d/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/a2789557898d3b2afc5d1e24bbdb278d/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58

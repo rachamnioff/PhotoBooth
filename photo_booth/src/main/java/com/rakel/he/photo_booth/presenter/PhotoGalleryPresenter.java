@@ -2,6 +2,7 @@ package com.rakel.he.photo_booth.presenter;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.util.Log;
 
 import com.rakel.he.photo_booth.contacts.PhotoGalleryContacts;
 import com.rakel.he.photo_booth.model.PhotoBean;

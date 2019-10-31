@@ -16,6 +16,7 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:id="@+id/tittle_bar_tittle"
+        android:gravity="center"
         style="@style/TittleBar.Tittle"/>
     <TextView
         android:layout_width="wrap_content"

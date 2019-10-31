@@ -3,6 +3,7 @@ package com.rakel.he.photo_booth.view;
 import android.os.Bundle;
 import android.os.Environment;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -59,6 +60,12 @@ public class CapturePhotoView extends BaseActivity implements CameraContacts.Vie
         mCameraView.open();
     }
 
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        mCameraView.destroy();
+    }
+
     private void initView()
     {
         setContentView(R.layout.activity_capture_photo);
@@ -82,9 +89,10 @@ public class CapturePhotoView extends BaseActivity implements CameraContacts.Vie
 
     private void showNameInputDialog()
     {
+        Log.d(TAG,"show pop up window");
         mPopWindow=new PopupWindow(ViewGroup.LayoutParams.MATCH_PARENT,
                 ViewGroup.LayoutParams.WRAP_CONTENT);
-        mPopWindow.setTouchable(false);
+//        mPopWindow.setTouchable(false);
         mPopWindow.setOutsideTouchable(false);
         View view= LayoutInflater.from(this).inflate(R.layout.layout_popup_input,null);
         mPopWindow.setContentView(view);
@@ -98,9 +106,11 @@ public class CapturePhotoView extends BaseActivity implements CameraContacts.Vie
                     showToast(getString(R.string.err_input_name_empty));
                     return;
                 }
+                mPopWindow.dismiss();
                 ((CapturePhotoPresenter)iPresenter).savePhoto(mFilePathForCapturePhoto,inputName);
             }
         });
+        mPopWindow.setFocusable(true);
         mPopWindow.showAtLocation(findViewById(R.id.tittle_bar_tittle), Gravity.CENTER_VERTICAL,0,0);
     }
 
@@ -109,15 +119,17 @@ public class CapturePhotoView extends BaseActivity implements CameraContacts.Vie
     {
         mCameraView=findViewById(R.id.capture_camera_view);
         mCameraView.setMode(Mode.PICTURE);
-        final File dir=new File(Environment.getExternalStorageDirectory().getAbsolutePath()+PHOTO_DIR);
+        final File dir=new File(Environment.getExternalStorageDirectory().getAbsolutePath()+File.separator+PHOTO_DIR);
         if(!dir.exists())
             dir.mkdirs();
         mCameraView.addCameraListener(new CameraListener() {
             @Override
             public void onPictureTaken(@NonNull PictureResult result) {
                 super.onPictureTaken(result);
-                final String fileName=dir.getAbsolutePath()+File.pathSeparator
+                Log.d(TAG,"Photo captured");
+                final String fileName=dir.getAbsolutePath()+File.separator
                         +System.currentTimeMillis()+".jpg";
+                Log.d(TAG,"save photo to:"+fileName);
                 result.toFile(new File(fileName), new FileCallback() {
                     @Override
                     public void onFileReady(@Nullable File file) {
