@@ -56,12 +56,14 @@ public abstract class BaseActivity extends Activity implements IView{
     @Override
     public void bindView() {
         iPresenter = createPresenter();
-        iPresenter.register(this);
+        if(iPresenter!=null)
+            iPresenter.register(this);
     }
 
     @Override
     public void unbindView() {
-        iPresenter.unRegister();
+        if(iPresenter!=null)
+            iPresenter.unRegister();
     }
 
     protected abstract IPresenter createPresenter();
