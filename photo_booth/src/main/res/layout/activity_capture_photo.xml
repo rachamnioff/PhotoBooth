@@ -21,7 +21,7 @@
             android:id="@+id/capture_btn"
             android:layout_gravity="bottom|center_horizontal"
             android:layout_marginBottom="20dp"
-            android:background="@drawable/shape_capture_photo_selected"/>
+            android:background="@drawable/selector_capture_photo_btn"/>
     </FrameLayout>
 
 </LinearLayout>

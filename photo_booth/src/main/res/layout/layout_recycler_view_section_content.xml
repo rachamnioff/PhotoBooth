@@ -7,18 +7,18 @@
         android:layout_height="wrap_content"
         android:id="@+id/gallery_item_photo"/>
     <TextView
-        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/gallery_item_name"
         style="@style/TittleBar.Menu"
+        android:gravity="center"
         android:maxLines="1"
         />
     <TextView
-        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/gallery_item_create_time"
         style="@style/TittleBar.Menu"
+        android:gravity="center"
      />
 </LinearLayout>
