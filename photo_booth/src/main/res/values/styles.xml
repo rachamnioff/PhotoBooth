@@ -7,8 +7,10 @@
     </style>
     <style name="TittleBar.Menu" parent="TittleBar">
         <item name="android:textSize">@dimen/tittle_bar_menu_text_size</item>
+        <item name="android:background">@android:color/transparent</item>
     </style>
     <style name="TittleBar.Tittle" parent="TittleBar">
         <item name="android:textSize">@dimen/tittle_bar_tittle_text_size</item>
+        <item name="android:background">@android:color/transparent</item>
     </style>
 </resources>

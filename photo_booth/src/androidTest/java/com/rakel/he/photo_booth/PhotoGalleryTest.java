@@ -48,7 +48,7 @@ public class PhotoGalleryTest {
     {
 
         mTestPhotoBean=new PhotoBean();
-        mTestPhotoBean.setName(System.currentTimeMillis()+".jpg");
+        mTestPhotoBean.setName(String.valueOf(System.currentTimeMillis()));
         mTestPhotoBean.setFilePath(TEST_PHOTO_FILE_PATH);
         liteOrm.save(mTestPhotoBean);
         model=new PhotoGalleryModel(mActivityRule.getActivity());
@@ -79,7 +79,7 @@ public class PhotoGalleryTest {
     {
         RecyclerViewMatcher withRecyclerView=new RecyclerViewMatcher(R.id.gallery_photoes);
         onView(withRecyclerView.atPosition(0))
-                .check(matches(hasDescendant(withText(TEST_PHOTO_FILE_PATH))));
+                .check(matches(hasDescendant(withText(mTestPhotoBean.getName()))));
     }
 
 
