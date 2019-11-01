@@ -54,36 +54,35 @@
 33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 33-->[androidx.core:core:1.0.1] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/72b2b92ec4ab73ff21fb9bc348de3b22/core-1.0.1/AndroidManifest.xml:22:18-86
 34        android:debuggable="true"
-35        android:label="@string/app_name"
+35        android:label="@string/app_name" >
 35-->[com.truizlop.sectionedrecyclerview:library:1.2.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/d9ad2c95614e7e643e4fb1bbd953485b/jetified-library-1.2.0/AndroidManifest.xml:11:18-50
-36        android:testOnly="true" >
-37        <activity android:name="com.rakel.he.photo_booth.view.CapturePhotoView" />
-37-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:4:8-57
-37-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:4:18-55
-38        <activity android:name="com.rakel.he.photo_booth.view.PhotoDetailView" />
-38-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:5:9-57
-38-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:5:19-55
-39        <activity android:name="com.rakel.he.photo_booth.view.PhotoGalleryView" >
-39-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:6:9-11:20
-39-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:6:19-56
-40            <intent-filter>
-40-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:7:13-10:29
-41                <action android:name="android.intent.action.MAIN" />
-41-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:8:17-69
-41-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:8:25-66
-42
-43                <category android:name="android.intent.category.LAUNCHER" />
-43-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:9:17-77
-43-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:9:27-74
-44            </intent-filter>
-45        </activity>
-46
-47        <meta-data
-47-->[com.google.android.gms:play-services-basement:17.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/a2789557898d3b2afc5d1e24bbdb278d/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
-48            android:name="com.google.android.gms.version"
-48-->[com.google.android.gms:play-services-basement:17.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/a2789557898d3b2afc5d1e24bbdb278d/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
-49            android:value="@integer/google_play_services_version" />
-49-->[com.google.android.gms:play-services-basement:17.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/a2789557898d3b2afc5d1e24bbdb278d/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
-50    </application>
-51
-52</manifest>
+36        <activity android:name="com.rakel.he.photo_booth.view.CapturePhotoView" />
+36-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:4:8-57
+36-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:4:18-55
+37        <activity android:name="com.rakel.he.photo_booth.view.PhotoDetailView" />
+37-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:5:9-57
+37-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:5:19-55
+38        <activity android:name="com.rakel.he.photo_booth.view.PhotoGalleryView" >
+38-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:6:9-11:20
+38-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:6:19-56
+39            <intent-filter>
+39-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:7:13-10:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:8:17-69
+40-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:8:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:9:17-77
+42-->/Users/rakelhe/source_code/PhotoBooth/photo_booth/src/main/AndroidManifest.xml:9:27-74
+43            </intent-filter>
+44        </activity>
+45
+46        <meta-data
+46-->[com.google.android.gms:play-services-basement:17.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/a2789557898d3b2afc5d1e24bbdb278d/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+47            android:name="com.google.android.gms.version"
+47-->[com.google.android.gms:play-services-basement:17.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/a2789557898d3b2afc5d1e24bbdb278d/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+48            android:value="@integer/google_play_services_version" />
+48-->[com.google.android.gms:play-services-basement:17.0.0] /Users/rakelhe/.gradle/caches/transforms-2/files-2.1/a2789557898d3b2afc5d1e24bbdb278d/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+49    </application>
+50
+51</manifest>

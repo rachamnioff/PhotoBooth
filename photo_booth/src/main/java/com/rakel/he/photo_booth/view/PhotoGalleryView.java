@@ -76,6 +76,7 @@ public class PhotoGalleryView extends BaseActivity
                 if (mSectionTittles == null || mSectionTittles.size() == 0) {
                     findViewById(R.id.gallery_empty_icon).setVisibility(View.VISIBLE);
                     mRecyclerView.setVisibility(View.GONE);
+                    return;
                 }
                 mPhotoAdapter.notifyDataSetChanged();
             }
@@ -99,6 +100,8 @@ public class PhotoGalleryView extends BaseActivity
             photoBeans.add(bean);
             mPhotoMap.put(formatedDate,photoBeans);
         }
+        if(!mSectionTittles.contains(formatedDate))
+            mSectionTittles.add(formatedDate);
         findViewById(R.id.gallery_empty_icon).setVisibility(View.GONE);
         mRecyclerView.setVisibility(View.VISIBLE);
         mDataSetChanged=true;
