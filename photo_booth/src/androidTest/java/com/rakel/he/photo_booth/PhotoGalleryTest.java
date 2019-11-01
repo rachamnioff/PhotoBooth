@@ -1,12 +1,10 @@
 package com.rakel.he.photo_booth;
 
-
-import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.filters.MediumTest;
+import androidx.test.platform.app.InstrumentationRegistry;
 import androidx.test.rule.ActivityTestRule;
 
 import com.litesuits.orm.LiteOrm;
-import com.litesuits.orm.db.assit.WhereBuilder;
 import com.rakel.he.photo_booth.contacts.PhotoGalleryContacts;
 import com.rakel.he.photo_booth.model.PhotoBean;
 import com.rakel.he.photo_booth.model.PhotoGalleryModel;
@@ -18,7 +16,6 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Rule;
 import org.junit.Test;
-import org.junit.runner.RunWith;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -28,18 +25,20 @@ import java.util.List;
 
 import static androidx.test.espresso.Espresso.onView;
 import static androidx.test.espresso.assertion.ViewAssertions.matches;
+import static androidx.test.espresso.matcher.ViewMatchers.hasDescendant;
 import static androidx.test.espresso.matcher.ViewMatchers.isDisplayed;
 import static androidx.test.espresso.matcher.ViewMatchers.withId;
+import static androidx.test.espresso.matcher.ViewMatchers.withText;
 
-@RunWith(AndroidJUnit4.class)
+//@RunWith(AndroidJUnit4.class)
 @MediumTest
 public class PhotoGalleryTest {
     @Rule
-    public static ActivityTestRule<PhotoGalleryView> mActivityRule = new ActivityTestRule<>(
+    public  ActivityTestRule<PhotoGalleryView> mActivityRule = new ActivityTestRule<>(
             PhotoGalleryView.class);
 
     protected static LiteOrm liteOrm;
-    private static String TEST_PHOTO_NAME;
+    private static String TEST_PHOTO_FILE_PATH;
 
     private PhotoBean mTestPhotoBean;
     private PhotoGalleryModel model;
@@ -47,9 +46,10 @@ public class PhotoGalleryTest {
     @Before
     public void insertNewPhotoBeen()
     {
+
         mTestPhotoBean=new PhotoBean();
-        mTestPhotoBean.setName(TEST_PHOTO_NAME);
-        mTestPhotoBean.setFilePath(TEST_PHOTO_NAME);
+        mTestPhotoBean.setName(System.currentTimeMillis()+".jpg");
+        mTestPhotoBean.setFilePath(TEST_PHOTO_FILE_PATH);
         liteOrm.save(mTestPhotoBean);
         model=new PhotoGalleryModel(mActivityRule.getActivity());
         model.loadPhotoes(new PhotoGalleryContacts.Model.ModelListener() {
@@ -61,27 +61,42 @@ public class PhotoGalleryTest {
     }
 
 
+    /*
+    for RecyclerView only visible when there's photo in the associated database.
+     */
     @Test
-    public void testCaseForVisibilityOfRecyclerView()
+    public void testVisibilityOfRecyclerView()
     {
         onView(withId(R.id.gallery_photoes)).check(matches(isDisplayed()));
+    }
 
+
+    /*
+    to make sure that newly inserted item is visible and is the first item
+     */
+    @Test
+    public void testVisibilityOfNewlyInsertedItem()
+    {
+        RecyclerViewMatcher withRecyclerView=new RecyclerViewMatcher(R.id.gallery_photoes);
+        onView(withRecyclerView.atPosition(0))
+                .check(matches(hasDescendant(withText(TEST_PHOTO_FILE_PATH))));
     }
 
 
     @After
     public void deleteNewlyInsertedPhotoBean()
     {
-        liteOrm.delete(WhereBuilder.create(PhotoBean.class).where("filePath like ?"+new String[]{TEST_PHOTO_NAME}));
+        liteOrm.delete(mTestPhotoBean);
     }
 
     @BeforeClass
     public static void  beforClassOperation()
     {
-        liteOrm=LiteOrm.newSingleInstance(mActivityRule.getActivity(), "photo_booth.db");
+        liteOrm=LiteOrm.newSingleInstance(InstrumentationRegistry.getInstrumentation().getTargetContext(), "photo_booth.db");
         liteOrm.openOrCreateDatabase();
         copyAssetAndWrite("Espresso_Test_Photo.png");
     }
+
 
     @AfterClass
     public static void afterClassOperation()
@@ -93,23 +108,23 @@ public class PhotoGalleryTest {
     private static boolean copyAssetAndWrite(String fileName){
         try {
             File cacheDir;
-            cacheDir = mActivityRule.getActivity().getCacheDir();
+            cacheDir = InstrumentationRegistry.getInstrumentation().getTargetContext().getCacheDir();
             if (!cacheDir.exists()){
                 cacheDir.mkdirs();
             }
-            File outFile =new File(cacheDir,fileName);
+            File outFile =new File(cacheDir,System.currentTimeMillis()+".jpg");
             if (!outFile.exists()){
                 boolean res=outFile.createNewFile();
                 if (!res){
                     return false;
                 }
             }else {
-                if (outFile.length()>10){//表示已经写入一次
+                if (outFile.length()>10){
                     return true;
                 }
             }
-            TEST_PHOTO_NAME=outFile.getAbsolutePath();
-            InputStream is=mActivityRule.getActivity().getAssets().open(fileName);
+            TEST_PHOTO_FILE_PATH =outFile.getAbsolutePath();
+            InputStream is=InstrumentationRegistry.getInstrumentation().getTargetContext().getAssets().open(fileName);
             FileOutputStream fos = new FileOutputStream(outFile);
             byte[] buffer = new byte[1024];
             int byteCount;
